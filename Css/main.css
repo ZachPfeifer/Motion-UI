@@ -95,7 +95,7 @@ section {
 }
 
 .hero-section img {
-  height: 100%;
+  width: 100%;
 }
 
 .hero-section .hero-title {
@@ -155,19 +155,19 @@ section {
 
 .article img {
   width: 100%;
-  transition: all ease-in-out .3s;
+  transition: all ease-in-out 0.3s;
 }
 
 .article-body h3 {
   font-size: 2rem;
   margin-bottom: 1rem;
-  transition: all ease-in-out .3s;
+  transition: all ease-in-out 0.3s;
 }
 
 .article .article-body {
   padding: 2rem;
   text-align: justify;
-  transition: all ease-in-out .3s;
+  transition: all ease-in-out 0.3s;
 }
 
 .article:hover img {
@@ -175,9 +175,9 @@ section {
 }
 
 .article:hover h3 {
-  transform: translate(-.5em);
+  transform: translateY(-0.5em);
 }
 
 .article:hover .article-body {
-  transform: translate(.5em);
+  transform: translateY(0.5em);
 }
