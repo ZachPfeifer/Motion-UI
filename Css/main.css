@@ -44,3 +44,44 @@
      font-size: 1.3rem;
      color: antiquewhite;
    }
+
+   section {
+     min-height: 100vh;
+   }
+
+   .title-section {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: darkgray;
+     box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+   }
+
+   .title-header {
+     font-weight: 300;
+     font-size: 4.5rem;
+   }
+
+   .title-header .text-wrapper {
+     position: relative;
+     display: inline-block;
+     padding: .1rem .05rem .15rem;
+     line-height: 1rem;
+   }
+
+   .title-section .line {
+     position: absolute;
+     left: 0;
+     top: 0;
+     bottom: 0;
+     margin: auto;
+     height: 3px;
+     width: 100%;
+     background-color: antiquewhite;
+     transform-origin: .5 0;
+   }
+
+   .title-header .letter {
+     display: inline-block;
+     opacity: 1;
+   }
